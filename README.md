@@ -1,4 +1,4 @@
-# 学习视频 1.5 倍速插件
+# 浏览器视频倍速插件
 
 适用于 Windows 上的 Chrome 和 Edge。默认在 `https://bit.thefront.cn/` 的 HTML5 视频上应用 1.5 倍速，切换视频和刷新页面后继续使用已保存的设置。
 
