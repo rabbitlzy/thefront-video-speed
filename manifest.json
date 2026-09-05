@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "学习视频 1.5 倍速",
+  "version": "1.0.0",
+  "description": "在 bit.thefront.cn 自动以 1.5 倍速播放 HTML5 视频，可切换回原速。",
+  "permissions": ["storage"],
+  "action": { "default_popup": "video-speed/popup.html", "default_title": "学习视频倍速" },
+  "content_scripts": [{
+    "matches": ["https://bit.thefront.cn/*"],
+    "js": ["video-speed/content.js"],
+    "run_at": "document_idle",
+    "all_frames": true,
+    "match_about_blank": true,
+    "match_origin_as_fallback": true
+  }]
+}

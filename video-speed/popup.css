@@ -1,0 +1,9 @@
+body { width: 268px; margin: 0; padding: 22px; font: 14px/1.6 "Microsoft YaHei", sans-serif; color: #172a3a; background: #f6f9fc; }
+h1 { font-size: 20px; margin: 0; }
+p { color: #596b7b; margin: 6px 0 18px; }
+label { display: block; }
+.toggle { margin: 18px 0; font-weight: 600; }
+input { accent-color: #1768bf; }
+select { width: 100%; margin: 7px 0 16px; padding: 9px; border: 1px solid #b6c8db; border-radius: 8px; font: inherit; background: white; }
+small { display: block; color: #596b7b; }
+#status { color: #1768bf; min-height: 23px; }
